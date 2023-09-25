@@ -1,0 +1,260 @@
+body{
+    background: black;
+    font-family: sans-serif;
+}
+
+.navbar{
+    height: 15vh;
+    width: 100%;
+    /* background: white; */
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size: 245%;
+    font-weight: 600;
+    position: absolute;
+    left: 6%;
+    font-family: sans-serif;
+    color: white;
+}
+.resume a{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    left: 55%;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+.github{
+    height: 10vh;
+    width: 10%;
+    /* background-color: aqua; */
+    position: absolute;
+    left: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.linkedin{
+    height: 10vh;
+    width: 10%;
+    /* background-color: aqua; */
+    position: absolute;
+    left: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.containerIn{
+    height: 70vh;
+    width: 100%;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 25vh;
+    left: 0%;
+    display: flex;
+    align-items: center;
+}
+.type{
+    height: 30vh;
+    width: 50%;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 500%;
+    font-weight: 700;
+    color: white;
+
+}
+
+.play{
+    animation: colorChange 15s infinite;
+    transition: ;
+}
+
+@keyframes colorChange{
+    0%{color: red;}
+    20% {color: pink;}
+    40%{color: orangered;}
+    55%{color: #38b000;}
+    80%{color: #0077b6;}
+    100%{color: #7209b7;}
+}
+
+.img{
+    height: 60vh;
+    width: 40%;
+    background-image: url("https://c0mpli.github.io/personalwebsite/static/media/personIcon.396ef378ca75af71485d.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    /* background-color: #0077b6; */
+}
+.typewriter{
+    
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 70vh;
+}
+.typewriter h1 {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    position: absolute;
+    left: 3%;
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+      
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+
+.projects{
+    height: 10vh;
+    width: 100%;
+    /* background: #0077b6; */
+    position: absolute;
+    top: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects p{
+    font-size: 125%;    
+    font-weight: 600;
+    color: white;
+}
+
+.projects a{
+    text-decoration: none;
+    position: absolute;
+    top: 10vh;
+    color: white;
+    font-weight: 600;
+    transform: rotate(180deg);
+    font-size: 145%;
+}
+
+/* .contain{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 135vh;
+    background-color: #0077b6;
+}
+
+.p1{
+    height: 60vh;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 5vh;
+    background: #7209b7;
+}
+
+.w{
+    height: 30vh;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    background: white;
+}
+
+.p1 p{
+    position: absolute;
+    top: 34vh;
+    left: 25%;   
+    font-weight: 600; 
+}
+
+.p1 pre{
+    position: absolute;
+    top: 38vh;
+    left: 7%;
+    font-weight: 600;
+} */
+/* 
+.circle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #0077b6;
+    position: absolute;
+    z-index: 1000px;
+    animation: cool 1.5s;
+    top: -1000px;
+    right: 50%;
+}
+
+@keyframes cool{
+    5%{top: 0%;}
+    13%{top: 10%;}
+    15%{top: 15%;}
+    20%{top: 20%;}
+    30%{top: 30%;}
+    40%{top: 40%;}
+    50%{top: 50%;}
+    60%{
+        top: 50%;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+    }
+    70%{
+        top: 60%;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    80%{
+        top: 50%;
+        height: 75px;
+        width: 75px;
+        border-radius: 50%;
+    }
+
+    90%{
+        top: 50%;
+        height: 1000px;
+        width: 1000px;
+        border-radius: 50%;
+    }
+
+    100%{
+        top: 50%;
+        height: 3000px;
+        width: 3000px;
+        border-radius: 50%;
+    } */
+
+
+}
